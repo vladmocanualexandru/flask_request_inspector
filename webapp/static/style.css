@@ -1,0 +1,74 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color:white;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+body div.content{
+    padding:1em;
+}
+
+th {
+    text-align: left;
+    padding:1em;
+}
+
+td {
+    padding:0.4em 0.4em 0.4em 1em;
+}
+
+table.blue th {
+    background: #002366;
+}
+
+table.blue tr.dark {
+    background: hsl(219, 100%, 8%);
+}
+
+table.green th {
+    background: #006611;
+}
+
+table.green tr.dark {
+    background: hsl(130, 100%, 8%);
+}
+
+table.orange th {
+    background: #664600;
+}
+
+table.orange tr.dark {
+    background: #251a00;
+}
+
+div.tabButtons{
+    overflow: auto;
+}
+
+div.tabButtons div.tabButton {
+    float:left;
+    min-width:5em;
+    padding: 1em 0.5em;
+    opacity: 0.5;
+}
+
+div.tabButtons div.tabButton:hover{
+    opacity: 0.75;
+    cursor:pointer;
+}
+
+div.tabButtons div.tabButton.selected{
+    opacity: 1;
+}
+
+div.tabButtons div.tabButton.blue { background: #002366;}
+div.tabButtons div.tabButton.green { background: #006611;}
+div.tabButtons div.tabButton.orange { background: #664600;}
+div.tabButtons div.tabButton.purple { background: #2c0066;}
+
+div.tabs div.tab {
+    display: none;
+}
